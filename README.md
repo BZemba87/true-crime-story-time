@@ -1,8 +1,8 @@
 # True Crime Story Time #
 
-This is a blogging website for true crime lovers to unite, read and discuss all things true crime.   It allows users to read blog posts as a member or non member.  Non members have the ability to sign up if they wish to interact with a blog post by commenting or liking.  
+This is a blogging website for true crime lovers to unite and read about some of the most famous spine-tingling true crime cases.   It allows users to read blog posts as a member or non member.  Non members have the ability to sign up if they wish to like posts.  
 
-Admin has the ability to create, read, update and delete posts and comments.
+Admin has the ability to create, read, update and delete posts.
 
 # User Experience #
 
@@ -14,7 +14,6 @@ Admin has the ability to create, read, update and delete posts and comments.
 
 ## Member User Goals ##
 - As a user with an account, I want to be able to log in easily 
-- As a user with an account, I want to be able to join a discussion about a true crime case by adding comments to posts 
 - As a user with an account, I want to be able to like or unlike blog posts
 - As a user with an account, I want to be able to log out 
 
@@ -24,7 +23,6 @@ Admin has the ability to create, read, update and delete posts and comments.
 
 ## Admin User Goals ##
 - As admin, I want to create, read, update and delete posts so that I can manage my blog content
-- As admin, I want to be able to approve and disapprove comments so that I can filter out inappropriate comments
 - As admin, I want the option to write draft posts that can be saved and posted later 
 
 # Strategy 
