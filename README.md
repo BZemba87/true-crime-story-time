@@ -27,6 +27,63 @@ Admin has the ability to create, read, update and delete posts and comments.
 - As admin, I want to be able to approve and disapprove comments so that I can filter out inappropriate comments
 - As admin, I want the option to write draft posts that can be saved and posted later 
 
+# Strategy 
+
+
+
+
+
+# Scope 
+
+
+
+
+
+# Structure 
+
+
+
+
+
+# Skeleton 
+
+## Landing Page (non member) 
+
+<h2 align ="center"><img src = "assets/docs/landingpage.png"></h2>
+
+## Landing Page (member) 
+
+<h2 align ="center"><img src = "assets/docs/landing_member.png"></h2>
+
+## Blog Post Page (member)
+
+<h2 align ="center"><img src = "assets/docs/blogpost_member.png"></h2>
+
+## Blog Post Page (non member)
+
+<h2 align ="center"><img src = "assets/docs/blogpost_nonmember.png"></h2>
+
+## Log In Page 
+
+<h2 align ="center"><img src = "assets/docs/login.png"></h2>
+
+## Log Out Page 
+
+<h2 align ="center"><img src = "assets/docs/logout.png"></h2>
+
+
+
+
+
+
+
+
+
+# Surface #
+
+
+
+
 
 
 
