@@ -49,17 +49,25 @@ Admin has the ability to create, read, update and delete posts and comments.
 
 ## Landing Page (non member) 
 
+Non members are able to browse through blog posts, view number of likes on each post and have the option to sign up and create an account 
+
 <h2 align ="center"><img src = "assets/docs/landingpage.png"></h2>
 
 ## Landing Page (member) 
+
+Members are able to browse through blog posts, view number of likes on each post and have the option to log out 
 
 <h2 align ="center"><img src = "assets/docs/landing_member.png"></h2>
 
 ## Blog Post Page (member)
 
+Members are able to like or leave comments on blog posts 
+
 <h2 align ="center"><img src = "assets/docs/blogpost_member.png"></h2>
 
 ## Blog Post Page (non member)
+
+Non members can read blog posts without the option to comment 
 
 <h2 align ="center"><img src = "assets/docs/blogpost_nonmember.png"></h2>
 
