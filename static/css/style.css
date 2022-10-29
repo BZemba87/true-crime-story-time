@@ -3,13 +3,26 @@ body {
 }
 
 .brand {
-    font-family: 'Courier Prime', monospace; 
-    font-size: 1.4rem;
+    font-family: 'Creepster', cursive;
+    font-size: 1.5rem;
     font-weight: 700;
+    letter-spacing: 2px;
     color: black;
 }
 
 .thin {
-    font-family: 'Courier Prime', monospace; 
-    font-weight: 300;
+    font-family: 'Recursive', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-family: 'Recursive', sans-serif;
+    font-size: 0.8rem;
+}
+
+.strapline {
+    font-family: 'Recursive', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
 }
