@@ -10,11 +10,6 @@ body {
     color: black;
 }
 
-.thin {
-    font-family: 'Recursive', sans-serif;
-    font-size: 1rem;
-    letter-spacing: 1px;
-}
 
 .nav-link {
     font-family: 'Recursive', sans-serif;
