@@ -10,18 +10,19 @@
 <div class="container">
   <div class="row">
     <div class="col-md-8 mt-3 offset-md-2">
-          <h3>{% trans "Sign In" %}</h3>
+          <h3 class="formheading">{% trans "Sign In" %}</h3>
 
 
-<p>{% blocktrans %} Returning for more?  Please log in to like a post. 
+<p class="signuptext">{% blocktrans %} Returning for more?  Please log in to like a post. 
       If you would like to join us then please 
-<a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
+<a href="{{ signup_url }}" class="link">sign up</a>.{% endblocktrans %}</p>
 
 </div>
 </div>
 <div class="row">
   <div class="col-md-8 mt-3 offset-md-2">
 
+  <div class="authentication">
   <form class="login" method="POST" action="{% url 'account_login' %}">
     {% csrf_token %}
     {{ form.as_p }}
@@ -30,6 +31,7 @@
     {% endif %}
     <button class="btn btn-signup right" type="submit">{% trans "Sign In" %}</button>
   </form>
+  </div>
 </div>
 </div>
 </div>

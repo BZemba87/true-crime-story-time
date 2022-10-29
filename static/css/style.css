@@ -1,10 +1,10 @@
 body {
-    background-color: red
+    background: linear-gradient(#fafafa,#DC143C);
 }
 
 .brand {
     font-family: 'Creepster', cursive;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     letter-spacing: 2px;
     color: black;
@@ -25,4 +25,41 @@ body {
     font-family: 'Recursive', sans-serif;
     font-size: 1rem;
     letter-spacing: 1px;
+}
+
+.formheading {
+    font-family: 'Creepster', cursive;
+}
+
+.authentication {
+    font-family: 'Recursive', sans-serif;
+}
+.signuptext {
+    font-family: 'Recursive', sans-serif;
+}
+
+.btn-signup {
+    background-color:  black;
+    color: #fafafa;
+    font-family: 'Recursive', sans-serif;
+}
+
+.btn-signup:hover,
+.btn-signup:active {
+    background-color: black;
+    color: red;
+}
+
+.link {
+    color: crimson;
+    text-shadow: #fafafa 0px 0px 2px;
+    font-family: 'Recursive', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+    color: black;
+    text-decoration: underline;
 }
