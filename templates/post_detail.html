@@ -13,9 +13,9 @@
             <div class="d-none d-md-block col-md-6 masthead-image">
                 <!-- The featured image URL goes in the src attribute -->
                 {% if "placeholder" in post.featured_image.url %}
-                <img src="/static/images/crime-scene-tape.jpg" width="100%" alt="crimescenepic">
+                <img src="https://res.cloudinary.com/dxbjhusma/image/upload/v1667117290/crime-scene-tape_qrhgnq.jpg" width="100%" alt="crimescenepic">
                 {% else %}
-                <img src="{{ post.featured_image.url }}" width="100%" alt="crimescenepic">
+                <img class="card-img-top" src="{{ post.featured_image.url }}" width="100%" alt="crimescenepic">
                 {% endif %}
             </div>
         </div>
