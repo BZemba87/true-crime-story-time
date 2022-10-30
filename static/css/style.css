@@ -69,3 +69,10 @@ body {
 .post-subtitle {
     font-family: 'Recursive', sans-serif;
 }
+
+.prev, .next {
+    background-color:  black;
+    color: #fafafa;
+    font-family: 'Recursive', sans-serif;
+}
+
