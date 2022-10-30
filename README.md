@@ -1,10 +1,20 @@
 # True Crime Story Time #
 
-This is a blogging website for true crime lovers to unite and read about some of the most famous spine-tingling true crime cases.   It allows users to read blog posts as a member or non member.  Non members have the ability to sign up if they wish to like posts.  
+This is a blogging website for true crime lovers to unite and read about some of the most famous spine-tingling true crime cases.   It allows users to read blog posts or like posts as a member.  Non-members have the ability to browse through blog posts and can sign up as a member if they wish to interact with a post with a like.  
 
 Admin has the ability to create, read, update and delete posts.
 
+You can view the live site [here](https://truecrimestorytime.herokuapp.com/)
+
+<h2 align ="center"><img src = "assets/docs/am_i_responsive.png"></h2>
+
 # User Experience #
+
+## User Stories ##
+
+I used the Agile Methodology Tool on Github to plan my project and use as a to do list.  I would move the issues I was working on across from the To Do column to the In Progress column.  Completed issues would then be dragged across to the Done column.  
+
+<h2 align ="center"><img src = "assets/docs/agilemeth.png"></h2>
 
 ## General User Goals ##
 - As a user, upon landing on the website, I want to know immediately what it is about
@@ -13,7 +23,7 @@ Admin has the ability to create, read, update and delete posts.
 - As a user/admin, I want the number of likes on each post to be visible so that I can easily see which ones are popular
 
 ## Member User Goals ##
-- As a user with an account, I want to be able to log in easily 
+- As a user with an account, I want to be able to log in easily and be remembered
 - As a user with an account, I want to be able to like or unlike blog posts
 - As a user with an account, I want to be able to log out 
 
@@ -59,13 +69,13 @@ Members are able to browse through blog posts, view number of likes on each post
 
 ## Blog Post Page (member)
 
-Members are able to like or leave comments on blog posts 
+Members are able to like or unlike posts
 
 <h2 align ="center"><img src = "assets/docs/blogpost_member.png"></h2>
 
 ## Blog Post Page (non member)
 
-Non members can read blog posts without the option to comment 
+Non members can read blog posts without the option to like 
 
 <h2 align ="center"><img src = "assets/docs/blogpost_nonmember.png"></h2>
 

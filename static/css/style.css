@@ -78,7 +78,7 @@ body {
     font-size: 1rem;
 }
 
-.prev, .next .prev:hover,.next:hover {
+.prev, .next, .prev:hover,.next:hover {
     color: black;
 }
 
