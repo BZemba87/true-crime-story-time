@@ -58,3 +58,14 @@ body {
     color: black;
     text-decoration: underline;
 }
+
+.post-title {
+    font-weight: 500;
+    line-height: 1.2;
+    color: black;
+    font-family: 'Recursive', sans-serif;
+}
+
+.post-subtitle {
+    font-family: 'Recursive', sans-serif;
+}
