@@ -25,3 +25,7 @@ class Meta:
 def _str_(self):
     return self.title
     
+    
+def number_of_likes(self):
+    return self.likes.count()
+    

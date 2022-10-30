@@ -59,16 +59,22 @@ body {
     text-decoration: underline;
 }
 
+.card-img-top {
+    height: 25rem;
+    width: 100%;
+}
+
+.image-container {
+    position: relative;
+}
+
+
+
 .post-title {
     font-weight: 500;
     line-height: 1.2;
     color: black;
     font-family: 'Recursive', sans-serif;
-}
-
-.post-title{
-    font-family: 'Recursive', sans-serif;
-    color: black;
 }
 
 .prev, .next {
@@ -78,6 +84,24 @@ body {
 }
 
 .socials {
+    font-family: 'Recursive', sans-serif;
+}
+
+a {
+    color: black;
+    font-family: 'Recursive', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: crimson;
+}
+
+.twit, .face, .insta {
+    color: #fafafa
+}
+
+.twit:hover, .face:hover, .insta:hover {
     color: black;
 }
 
