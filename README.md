@@ -21,6 +21,7 @@ I used the Agile Methodology Tool on Github to plan my project and use as a to d
 - As a user, I want to be able to browse a selection of true crime blog posts and choose which one I want to read
 - As a user, I want to be able to click on a post to access the whole blog post
 - As a user/admin, I want the number of likes on each post to be visible so that I can easily see which ones are popular
+- As a user/admin, I want to be able to create an account and log in to view/read/create posts
 
 ## Member User Goals ##
 - As a user with an account, I want to be able to log in easily and be remembered
@@ -35,25 +36,11 @@ I used the Agile Methodology Tool on Github to plan my project and use as a to d
 - As admin, I want to create, read, update and delete posts so that I can manage my blog content
 - As admin, I want the option to write draft posts that can be saved and posted later 
 
-# Strategy 
+## Relationship Diagram ##
 
+<h2 align ="center"><img src = "assets/docs/relationshipdiagram.png"></h2>
 
-
-
-
-# Scope 
-
-
-
-
-
-# Structure 
-
-
-
-
-
-# Skeleton 
+# Design
 
 ## Landing Page (non member) 
 
