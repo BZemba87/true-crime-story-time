@@ -60,14 +60,9 @@ body {
 }
 
 .card-img-top {
-    height: 25rem;
+    height: 22.5rem;
     width: 100%;
 }
-
-.image-container {
-    position: relative;
-}
-
 
 
 .post-title {
@@ -78,9 +73,13 @@ body {
 }
 
 .prev, .next {
-    background-color:  black;
     color: #fafafa;
-    font-family: 'Recursive', sans-serif;
+    font-family: 'Creepster', cursive;
+    font-size: 1rem;
+}
+
+.prev, .next .prev:hover,.next:hover {
+    color: black;
 }
 
 .socials {
@@ -95,6 +94,10 @@ a {
 
 a:hover {
     color: crimson;
+}
+
+.author {
+    font-family: 'Recursive', sans-serif;
 }
 
 .twit, .face, .insta {

@@ -17,15 +17,11 @@ class Post(models.Model):
     status = models.IntegerField(choices=STATUS, default=0)
     likes = models.ManyToManyField(User, related_name='blog_likes', blank=True)
 
+    class Meta:
+        ordering = ['-created_on']
 
-class Meta:
-    ordering = ['-created_on']
+    def _str_(self):
+        return self.title
 
-
-def _str_(self):
-    return self.title
-    
-    
-def number_of_likes(self):
-    return self.likes.count()
-    
+    def number_of_likes(self):
+        return self.likes.count()

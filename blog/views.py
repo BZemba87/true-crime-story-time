@@ -23,7 +23,7 @@ class PostDetail(View):
             "post_detail.html",
             {
                 "post": post,
-                "liked": liked
+                "liked": liked,
             },
         )
 
