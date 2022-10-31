@@ -199,9 +199,17 @@ Desktop:
 
 - My like count was not rendering and it turned out to be an indentation issue in models.py 
 
+- I have been trying to add a category model but I keep getting migration errors - "django.db.utils.ProgrammingError: relation "blog_category" already exists" so I deleted my category model and started again because it crashed my whole site.  Still no luck as I got a new error - "You are trying to add a non-nullable field 'category' to post without a default; we can't do that (the database needs something to populate existing rows).
+Please select a fix:
+ 1) Provide a one-off default now (will be set on all existing rows with a null value for this column)
+ 2) Quit, and let me add a default in models.py
+Select an option:" 
+I selected 2 and added default=1 to my category line in models.py and it is still throwing an error.  I deleted it all and tried again and now I have this error - NameError: name 'AddCategory' is not defined.  I have (self) passed through because I believe this is the solution for NameError but I am having no luck.  I have deleted my Category model from my project because only a yellow error page was showing.    
+
 # Future Development
 
 - I would like users to be able to comment and add their own blog posts 
+- Add categories to the blog posts 
 
 # Technologies
 
