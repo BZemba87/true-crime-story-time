@@ -194,7 +194,7 @@ Desktop:
 
 - My like count was not rendering and it turned out to be an indentation issue in models.py 
 
-#Future Development
+# Future Development
 
 - I would like users to be able to comment and add their own blog posts 
 
