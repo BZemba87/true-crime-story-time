@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container">
+    <div class="col card mb-4 mt-3 left top">
+        <h3>Delete Your Post</h3>
+    </div>
+
+    <!-- only admin can delete posts -->
+    {% if user.is_authenticated and user.is_superuser %}
+
+    <br /><br />
+    <!-- confirming with admin which post they wish to delete -->
+    <h4>Do you want to delete <strong>{{ post.title }}</strong></h4>
+    <br>
+    <div>
+
+        <form method="POST" novalidate>
+            {% csrf_token %}
+            <strong>Are you sure?</strong>
+            <br /><br />
+            <button type="submit" class="btn btn-danger">delete</button>
+            <a class="btn btn-primary, btn-home" href="{% url 'home' %}" role="button">home</a>
+        </form>
+
+    </div>
+
+    {% else %}
+
+   
+    <!-- If user tries to update, redirect to login page to login as admin -->
+    <div class="row">
+        <div class="col-md-8 mt-3 offset-md-2">
+            <h3>Login</h3>
+            <p>Please <a class="link" href="{% url 'account_login' %}">login</a> as Admin to delete this post.</p>
+        </div>
+    </div>
+
+    {% endif %}
+
+</div>
+
+{% endblock %}

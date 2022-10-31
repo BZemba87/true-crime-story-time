@@ -107,6 +107,43 @@ a:hover {
     font-family: 'Recursive', sans-serif;
 }
 
+/* buttons on admin permissions pages */
+.update {
+    background-color:black;
+    color:#fafafa;
+}
+
+.update:hover {
+    color:#DC143C;
+}
+
+.home-btn {
+    background-color:black;
+    color:#fafafa;
+}
+
+.home-btn:hover {
+    color: #DC143C;
+}
+
+.btn-home {
+    background-color: black;
+    color:#fafafa
+}
+
+.btn-home:hover {
+    color:#DC143C
+}
+
+.add-btn {
+    background-color: black;
+    color:#fafafa
+}
+
+.add-btn:hover {
+    color: #DC143C;
+}
+
 /* social media links */
 .twit, .face, .insta {
     color: #fafafa
@@ -115,4 +152,6 @@ a:hover {
 .twit:hover, .face:hover, .insta:hover {
     color: black;
 }
+
+
 

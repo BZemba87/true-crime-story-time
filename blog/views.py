@@ -1,7 +1,10 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from .models import Post
 from django.views import generic, View
+from django.views.generic import UpdateView, DeleteView, CreateView
 from django.http import HttpResponseRedirect, HttpResponse
+from django.urls import reverse_lazy
+from .forms import PostForm
 
 
 class PostList(generic.ListView):
@@ -40,7 +43,29 @@ class PostLike(View):
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
+class UpdatePost(UpdateView):
+    model = Post
+    template_name = 'update_post.html'
+    fields = ['title', 'content']
+    success_url = reverse_lazy('home')
 
 
-    
+class DeletePost(DeleteView):
+    model = Post
+    template_name = 'delete_post.html'
+    success_url = reverse_lazy('home')
+
+
+class AddPost(CreateView):
+    model = Post
+    template_name = 'add_post.html'
+    fields = [
+        'title',
+        'slug',
+        'author',
+        'content',
+        'status'
+        ]
+    success_url = reverse_lazy('home')
+
 
