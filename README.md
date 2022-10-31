@@ -34,6 +34,7 @@ I used the Agile Methodology Tool on Github to plan my project and use as a to d
 
 ## Admin User Goals ##
 - As admin, I want to create, read, update and delete posts so that I can manage my blog content
+- As admin, I want to be able to manage my blog content in the frontend and backend
 - As admin, I want the option to write draft posts that can be saved and posted later 
 - As admin, I want to be able to remove users from the site if required 
 - As admin, I want to be able to upload an image on my post
@@ -124,10 +125,11 @@ Non members can read blog posts without the option to like
 <h2 align ="center"><img src = "assets/docs/signout.png"></h2>
 
 ## Admin
-- Admin is able to create, read, update and delete posts from the backend.  
+- Admin is able to create, read, update and delete posts from the backend and frontend.  
 - Images can be added to new or existing posts by Admin.  
 - Likes can be monitored from the backend allowing Admin to see which users have liked what
-- Posts can be saved as drafts and finished later 
+- Posts can be saved as drafts from the frontend to the backend and finished later 
+- Posts can be saved as drafts in the backend and finished later 
 - Admin can delete selected users if necessary 
 
 # Testing
@@ -162,9 +164,9 @@ As a user without an account, I want the option to sign up and create an account
 
 ## Admin User Goals  - Tests ##
 As admin, I want to create, read, update and delete posts so that I can manage my blog content
-- Admin can do all this through the backend site as I have created, edited and deleted test posts
+- Admin can do all this through the backend and frontend site as I have created, edited and deleted test posts
 As admin, I want the option to write draft posts that can be saved and posted later 
-- Posts can be created and saved to post later 
+- Posts can be created and saved to post later from the frontend to the backend and from the backend to the backend
 As admin, I want to be able to remove users from the site if required
 - Admin has the option to delete users if required - this function is also working as I have added and deleted users
 As admin, I want to be able to upload an image on my post
@@ -230,6 +232,8 @@ PostgreSQL for database management
 - Summernote -
 Summernote WYSIWYG for Bootstrap
 - Gitpod and Github
+- Crispy Forms
+Used for create, update, delete function for Admin
 
 
 # Credit 
@@ -239,7 +243,9 @@ Summernote WYSIWYG for Bootstrap
 - History.com - blog post content
 - Stackoverflow
 - Tutor Support
-- Fellow students on Slack 
+- Fellow students on Slack
+- Posts on Slack - Admin permissions/CRUD in the frontend
+- geeksforgeeks.org - Admin permissions/CRUD in the frontend
 - My mentor 
 
 
