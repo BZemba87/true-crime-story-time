@@ -165,10 +165,13 @@ As a user without an account, I want the option to sign up and create an account
 ## Admin User Goals  - Tests ##
 As admin, I want to create, read, update and delete posts so that I can manage my blog content
 - Admin can do all this through the backend and frontend site as I have created, edited and deleted test posts
+
 As admin, I want the option to write draft posts that can be saved and posted later 
 - Posts can be created and saved to post later from the frontend to the backend and from the backend to the backend
+
 As admin, I want to be able to remove users from the site if required
 - Admin has the option to delete users if required - this function is also working as I have added and deleted users
+
 As admin, I want to be able to upload an image on my post
 - I have tested uploading images and it can be done successfully
 
