@@ -35,6 +35,8 @@ I used the Agile Methodology Tool on Github to plan my project and use as a to d
 ## Admin User Goals ##
 - As admin, I want to create, read, update and delete posts so that I can manage my blog content
 - As admin, I want the option to write draft posts that can be saved and posted later 
+- As admin, I want to be able to remove users from the site if required 
+- As admin, I want to be able to upload an image on my post
 
 ## Relationship Diagram ##
 
@@ -42,7 +44,12 @@ I used the Agile Methodology Tool on Github to plan my project and use as a to d
 
 # Design
 
+## Colour Scheme
+- Given the theme of the site, I wanted the colour scheme to align with this and give the user an eerie feeling.  I chose crimson and white as the background with black and white font.  
+
 ## Wireframes
+
+Some features of the Wireframes changed slightly during development.
 
 ## Landing Page (non member) 
 
@@ -52,7 +59,7 @@ Non members are able to browse through blog posts, view number of likes on each 
 
 ## Landing Page (member) 
 
-Members are able to browse through blog posts, view number of likes on each post and have the option to log out 
+Members are able to browse through blog posts, view number of likes on each post and have the option to log out.  The sign up link disappears for a logged in user.  
 
 <h2 align ="center"><img src = "assets/docs/landing_member.png"></h2>
 
@@ -129,7 +136,7 @@ Non members can read blog posts without the option to like
 
 ## General User Goals - Tests ##
 As a user, upon landing on the website, I want to know immediately what it is about
-- Users entering the website will immediately know the topic and theme of the site from the title 
+- Users entering the website will immediately know the topic and theme of the site from the title and images
 As a user, I want to be able to browse a selection of true crime blog posts and choose which one I want to read
 - All users have access to all blog posts whether they have an account or not 
 As a user, I want to be able to click on a post to access the whole blog post
@@ -141,25 +148,28 @@ As a user/admin, I want to be able to create an account and log in to view/read/
 
 ## Member User Goals - Tests##
 As a user with an account, I want to be able to log in easily and be remembered
-- Users can log in via the log in link and there is an option to tick the box for your details to be remembered
+- Users can log in via the log in link and there is an option to tick the box for your details to be remembered.  Users will alway know they are logged in because the login link in the nav bar will disappear
 As a user with an account, I want to be able to like or unlike blog posts
-- Like/unlike functionality is working and the like count is also visible to everyone
+- Like/unlike functionality works by clicking on the heart icon and the like count is also visible to everyone
 As a user with an account, I want to be able to log out 
-- Users can sign out through the log out link
+- Users can sign out via the log out link
 
 ## Non Member User Goals - Tests ##
 As a user without an account, I want to be able to browse and read blog posts
-- Non members have access to all posts 
+- Non members have access to all posts and number of likes on each post
 As a user without an account, I want the option to sign up and create an account
 - Non members can create an account through the sign up link 
 
-## Admin User Goals ##
+## Admin User Goals  - Tests ##
 As admin, I want to create, read, update and delete posts so that I can manage my blog content
-- Admin can do all this through the backend site
+- Admin can do all this through the backend site as I have created, edited and deleted test posts
 As admin, I want the option to write draft posts that can be saved and posted later 
 - Posts can be created and saved to post later 
-As admin, I want to be able to remove a user from the site
-- Admin has the option to delete users if required
+As admin, I want to be able to remove users from the site if required
+- Admin has the option to delete users if required - this function is also working as I have added and deleted users
+As admin, I want to be able to upload an image on my post
+- I have tested uploading images and it can be done successfully
+
 
 # Validator Tests
 
@@ -179,6 +189,14 @@ Mobile:
 Desktop:
 <h2 align ="center"><img src = "assets/docs/lighthousedesk.png"></h2>
 
+# Bugs and Errors
+- Once my site was deployed successfully to Heroku, my CSS was no longer applied locally.  I tried removing and re-adding the config var DISABLE_COLLECTSTATIC = 1 but this didn't resolve anything.  Tutor support managed to provide a walkaround that fixed it - added os.environ['DEVELOPMENT]="1" to env.py and then DEBUG = 'DEVELOPMENT' in os.environ to settings.py 
+
+- My like count was not rendering and it turned out to be an indentation issue in models.py 
+
+#Future Development
+
+- I would like users to be able to comment and add their own blog posts 
 
 # Technologies
 
@@ -195,6 +213,8 @@ Balsamiq was used for wireframes
 Bootstrap templates
 - Cloudinary -
 Cloudinary was used to store the placeholder image
+- Pexels 
+Images uploaded to blog from Admin site 
 - Django -
 Django built the app
 - Django Allauth -
@@ -209,6 +229,20 @@ Heroku was used for hosting and deploying the site
 PostgreSQL for database management
 - Summernote -
 Summernote WYSIWYG for Bootstrap
+- Gitpod and Github
+
+
+# Credit 
+- Code Institute - I Think Therefore I Blog walkthrough videos and code 
+- Youtuber Bek Brace - Build Blog Website with Django tutorial 
+- Wikipedia - blog post content 
+- History.com - blog post content
+- Stackoverflow
+- Tutor Support
+- Fellow students on Slack 
+- My mentor 
+
+
 
 
 

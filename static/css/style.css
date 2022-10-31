@@ -2,6 +2,7 @@ body {
     background: linear-gradient(#fafafa,#DC143C);
 }
 
+/* navigation bar */
 .brand {
     font-family: 'Creepster', cursive;
     font-size: 2rem;
@@ -22,6 +23,7 @@ body {
     letter-spacing: 1px;
 }
 
+/* login/logout/signup */
 .formheading {
     font-family: 'Creepster', cursive;
 }
@@ -59,6 +61,7 @@ body {
     text-decoration: underline;
 }
 
+/* blog posts on home page */
 .card-img-top {
     height: 22.5rem;
     width: 100%;
@@ -72,6 +75,7 @@ body {
     font-family: 'Recursive', sans-serif;
 }
 
+/* site pagination */
 .prev, .next {
     color: #fafafa;
     font-family: 'Creepster', cursive;
@@ -82,10 +86,13 @@ body {
     color: black;
 }
 
+/* footer */
 .socials {
     font-family: 'Recursive', sans-serif;
 }
 
+
+/*blog post text on card*/
 a {
     color: black;
     font-family: 'Recursive', sans-serif;
@@ -100,6 +107,7 @@ a:hover {
     font-family: 'Recursive', sans-serif;
 }
 
+/* social media links */
 .twit, .face, .insta {
     color: #fafafa
 }
