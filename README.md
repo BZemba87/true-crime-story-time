@@ -206,7 +206,9 @@ I have tested uploading images and it can be done successfully
 <h2 align ="center"><img src = "assets/docs/cssvalidator.png"></h2>
 
 ## Python
-- PEP8 is currently down but I have tested for PEP8 compliance using pycodestyle.  I have no errors aside from lines being too long in settings.py and models.py.
+- PEP8 was down when my project was submitted but I tested for PEP8 compliance using pycodestyle.  I had no errors aside from lines being too long in settings.py and models.py.  Since then, CI have developed their own pep8online replacement called CI Python Linter and I have ran my Python code through it.  It only returned a few warnings about trailing whitespace which were easy fixes.  
+
+<h2 align ="center"><img src = "assets/docs/python_linter.jpg"></h2>
 
 ## Lighthouse
 Mobile:
