@@ -259,13 +259,78 @@ Font Awesome -
 Imported fonts used from Google Fonts
 - Heroku -
 Heroku was used for hosting and deploying the site
-- PostgreSQL -
-PostgreSQL for database management
+- ElephantSQL -
+ElephantSQL for database management
 - Summernote -
 Summernote WYSIWYG for Bootstrap
 - Gitpod and Github
 - Crispy Forms
 Used for create, update, delete function for Admin
+
+# Deployment
+
+This blog site is deployed to Heroku.  Please follow the steps below:
+
+- Fork or clone this repository in GitHub
+
+- Create a Cloudinary account to store images/static files and log in
+
+- Click on 'Dashboard'
+
+- Copy the value of the 'API Environment variable' link 
+
+- Log in to Heroku
+
+- Click on 'New' and select 'Create new app' from the dropdown 
+
+- Enter a name for the app and select the appropriate region
+
+- Select 'Create app'
+
+- Click on 'Settings' 
+
+- Log in to ElephantSQL (with Github)
+
+- Click 'Create New Instance' on the dashboard
+
+- Create a name and select the 'Tiny Turtle (Free)' plan
+
+- Click 'Select Region'
+
+- Choose the nearest data centre to your location
+
+- Click 'Review'
+
+- Go to the ElephantSQL dashboard and click on the name of this project listed under 'Instances'
+
+- Copy the ElephantSQL database URL 
+
+- Return to the Heroku dashboard
+
+- Click on the 'Settings' tab
+
+- Scroll down and click on 'Reveal Config Vars' 
+
+- Enter the following config var names and values:
+CLOUDINARY_URL: your cloudinary URL as obtained above
+DATABASE_URL: your ElephantSQL postgres database URL as obtained above
+PORT: 8000
+SECRET_KEY: your secret key
+
+- Click the 'Deploy' tab
+
+- Select 'GitHub' and confirm you wish to deploy using GitHub
+
+- Find the 'Connect to GitHub' section and use the search box to locate relevant repo
+
+- Select 'Connect' 
+
+- If you would like your site to be automatically deployed with each change that is pushed to Github, choose the 'main' branch under 'Automatic Deploys' and select 'Enable Automatic Deploys'
+
+- Alternatively, you can select 'Manual Deploy' below and choose 'main' as the branch to deploy and select 'Deploy Branch'.  Your site will only be manually deployed when you choose
+
+- Once the deployment process is complete, you will be able to click on a link to your deployed site
+
 
 
 # Credit 
