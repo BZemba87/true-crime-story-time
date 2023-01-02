@@ -1,3 +1,8 @@
+
+"""
+Post form to allow admin to create posts
+"""
+
 from django import forms
 from .models import Post
 

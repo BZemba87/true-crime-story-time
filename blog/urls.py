@@ -1,3 +1,8 @@
+
+"""
+url paths for rendering views to the browser
+"""
+
 from . import views
 from django.urls import path
 from .views import UpdatePost, DeletePost, AddPost

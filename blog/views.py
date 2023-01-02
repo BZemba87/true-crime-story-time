@@ -1,3 +1,8 @@
+
+"""
+Imported functions for views code
+"""
+
 from django.shortcuts import render, get_object_or_404, reverse
 from .models import Post
 from django.views import generic, View
